@@ -18,7 +18,6 @@
 #include <string>
 
 #include "../include/socket.hpp"
-#include "../include/defines.hpp"
 
 using std::string;
 
