@@ -17,7 +17,7 @@
 #include <fcntl.h>
 #include <string>
 
-#include "../include/socket.hpp"
+#include "socket.hpp"
 
 using std::string;
 
