@@ -137,7 +137,7 @@ bool Socket::sendto(const std::string msg,
                     const uint16_t port)
 {   
     string myaddr = addr;
-    if (!isdigit(addr[0])) // hostname to IP
+    if (isdigit(addr[0]) == 0) // hostname to IP
     {
         string IP = IPfromHostName(myaddr);
         myaddr = IP;
