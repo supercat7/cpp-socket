@@ -37,7 +37,7 @@ Socket::Socket(int domain, int type, int protocol) {
 bool Socket::connect(const char* addr, uint16_t port) {
     int status;
     string myaddr = addr;
-    if (!isdigit(addr[0])) // hostname to IP
+    if ((isdigit(addr[0])) == 0) // hostname to IP
     {
         string IP = IPfromHostName(myaddr);
         myaddr = IP;
