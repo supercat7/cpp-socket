@@ -1,4 +1,4 @@
-# c-string
+# Socket Abstraction C++
 This is a socket abstraction library for C++
 
 # Installation
